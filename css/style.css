@@ -1,5 +1,6 @@
 :root {
-    --dark-brow: #100100;
+    --dark-brown: #100100;
+    --brown: #1b0f03;
     --beige: #F1D1B5;
 }
 
@@ -28,7 +29,7 @@ a:hover {
 /* HEADER */
 
 header {
-    background-color: var(--dark-brow);
+    background-color: var(--dark-brown);
     color: var(--beige);
     width: 100%;
     position: absolute;
@@ -190,7 +191,7 @@ header li:last-child {
 /* CARACTERISTICAS */
 
 .caracteristicas {
-    background-color: var(--dark-brow);
+    background-color: var(--dark-brown);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -264,21 +265,21 @@ header li:last-child {
 .newsletter h3 {
     font-size: 2rem;
     margin-bottom: 35px;
-    color: var(--dark-brow);
+    color: var(--dark-brown);
     text-align: center;
 }
 
 .newsletter p {
     max-width: 800px;
     margin-bottom: 35px;
-    color: var(--dark-brow);
+    color: var(--dark-brown);
     text-align: center;
 }
 
 .newsletter hr {
     width: 200px;
     height: 2px;
-    background-color: var(--dark-brow);
+    background-color: var(--dark-brown);
     margin-bottom: 70px;
     border: none;
 }
@@ -294,7 +295,7 @@ header li:last-child {
 
 .newsletter input {
     padding: 15px;
-    border: 1px solid var(--dark-brow);
+    border: 1px solid var(--dark-brown);
     border-radius: 4px;
     margin-right: 15px;
     flex: 1;
@@ -302,7 +303,7 @@ header li:last-child {
 
 .newsletter button {
     padding: 15px;
-    background-color: var(--dark-brow);
+    background-color: var(--dark-brown);
     color: #fff;
     text-transform: uppercase;
     border: none;
@@ -323,7 +324,7 @@ header li:last-child {
 footer {
     display: flex;
     flex-direction: column;
-    background-color: var(--dark-brow);
+    background-color: var(--dark-brown);
     padding: 50px 0;
     align-items: center;
 }
